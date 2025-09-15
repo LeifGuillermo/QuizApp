@@ -1,3 +1,28 @@
+# How to Run the Application
+
+## Backend (Flask API)
+1. Navigate to the `backend` directory:
+    ```bash
+    cd backend
+    ```
+2. Install dependencies:
+    ```bash
+    pip install flask
+    ```
+3. Start the Flask server:
+    ```bash
+    python app.py
+    ```
+
+## Frontend (Static Files)
+1. Navigate to the `frontend` directory:
+    ```bash
+    cd frontend
+    ```
+2. Open `index.html` in your web browser.
+
+**Note:** Ensure the backend server is running before using the frontend for full functionality.
+
 # Project Structure
 
 ```
