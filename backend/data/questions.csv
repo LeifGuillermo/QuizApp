@@ -1,0 +1,16 @@
+question,type,answers,correct_answers,categories
+Which AWS service is used to store objects such as photos and videos?,mc,Amazon S3|Amazon EC2|Amazon RDS|Amazon VPC,Amazon S3,Storage|AWS Services
+True or False: AWS is responsible for the security of the cloud infrastructure.,tf,True|False,True,Security|Shared Responsibility Model
+Which of the following are compute services provided by AWS?,ma,Amazon EC2|AWS Lambda|Amazon S3|Amazon RDS,Amazon EC2|AWS Lambda,Compute|AWS Services
+What does the AWS Well-Architected Framework help you do?,mc,Design secure and efficient cloud architectures|Reduce AWS billing costs only|Manage on-premises servers|Write application code,Design secure and efficient cloud architectures,Architecture|Best Practices
+Which AWS service provides a managed relational database?,mc,Amazon RDS|Amazon S3|Amazon DynamoDB|AWS Lambda,Amazon RDS,Database|AWS Services
+Select all benefits of cloud computing.,ma,Pay-as-you-go pricing|Scalability|Manual hardware provisioning|Global reach,Pay-as-you-go pricing|Scalability|Global reach,Cloud Concepts|Benefits
+Which AWS service is best for hosting a static website?,mc,Amazon S3|Amazon EC2|Amazon Redshift|AWS IAM,Amazon S3,Web Hosting|Storage
+True or False: AWS IAM allows you to manage users and their permissions.,tf,True|False,True,Security|IAM
+Which of the following are pillars of the AWS Well-Architected Framework?,ma,Operational Excellence|Security|Performance Efficiency|Data Mining,Operational Excellence|Security|Performance Efficiency,Architecture|Best Practices
+What is the main benefit of using AWS Auto Scaling?,mc,Automatically adjusts resources to meet demand|Provides free storage|Manages user permissions|Encrypts data,Automatically adjusts resources to meet demand,Compute|Scalability
+Which AWS service lets you run code without provisioning or managing servers?,mc,AWS Lambda|Amazon EC2|Amazon S3|Amazon VPC,AWS Lambda,Compute|Serverless
+True or False: AWS provides a global infrastructure.,tf,True|False,True,Cloud Concepts|Global Infrastructure
+Which AWS service is used for content delivery and caching?,mc,Amazon CloudFront|Amazon S3|Amazon EC2|AWS IAM,Amazon CloudFront,Networking|Content Delivery
+What is the primary purpose of AWS CloudTrail?,mc,Monitor API activity|Store objects|Host databases|Deliver content,Monitor API activity,Security|Monitoring
+Which of the following are storage classes in Amazon S3?,ma,Standard|Intelligent-Tiering|Glacier|Provisioned IOPS,Standard|Intelligent-Tiering|Glacier,Storage|AWS Services

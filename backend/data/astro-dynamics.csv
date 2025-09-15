@@ -1,0 +1,10 @@
+question,type,answers,correct_answers,categories
+What does a "Hohmann transfer orbit" optimize?,mc,Time|Fuel consumption|Orbital inclination|Maximum velocity,Fuel consumption,Astrodynamics|Orbital Mechanics|Maneuvers
+The concept of "delta-v" (Δv) represents the change in an object's velocity. (True or False),tf,True|False,True,Astrodynamics|Orbital Mechanics|Concepts
+Which of these forces are considered in celestial mechanics?,ma,Gravity|Solar Radiation Pressure|Aerodynamic Drag|Thrust,Gravity|Solar Radiation Pressure|Aerodynamic Drag|Thrust,Astrodynamics|Forces
+What is the escape velocity from Earth's surface in km/s?,te,11.2,11.2,Astrodynamics|Planetary Science|Velocity
+What is the common term for the point in an orbit closest to the Earth?,mc,Apogee|Perigee|Perihelion|Aphelion,Perigee,Astrodynamics|Orbital Elements|Earth
+A satellite in a geosynchronous orbit always remains above the same point on Earth. (True or False),tf,True|False,False,Astrodynamics|Orbital Elements|Earth
+Which of these describes a hyperbolic trajectory?,ma,Escape trajectory|Open trajectory|Closed trajectory|Recaptured orbit,Escape trajectory|Open trajectory,Astrodynamics|Trajectories|Conic Sections
+What is the astrodynamics term for the change in velocity required to transition from one orbit to another?,te,Delta-v,Delta-v,Astrodynamics|Orbital Mechanics|Concepts
+Which of the following describes an orbit with an eccentricity of zero?,mc,Elliptical|Circular|Parabolic|Hyperbolic,Circular,Astrodynamics|Orbital Elements|Conic Sections

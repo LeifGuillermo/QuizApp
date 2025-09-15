@@ -1,0 +1,217 @@
+/* Minimalist and clean design */
+:root {
+    --primary-color: #007bff;
+    --background-color: #f4f7f9;
+    --card-background: #ffffff;
+    --text-color: #333;
+    --light-text-color: #666;
+    --border-color: #e0e0e0;
+    --correct-color: #28a745;
+    --incorrect-color: #dc3545;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: var(--card-background);
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    color: var(--light-text-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav button.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+nav button:hover:not(.active) {
+    background-color: #e9ecef;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.card {
+    background: var(--card-background);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+.question-text {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-label {
+    display: block;
+    background-color: var(--background-color);
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    border: 1px solid var(--border-color);
+}
+
+.option-label:hover {
+    background-color: #e9ecef;
+    border-color: var(--primary-color);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results-section h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+}
+
+.correct-answer, .user-answer-correct {
+    color: var(--correct-color);
+}
+
+.incorrect-answer, .user-answer-incorrect {
+    color: var(--incorrect-color);
+}
+
+.result-item {
+    background-color: var(--card-background);
+    padding: 20px;
+    border-left: 5px solid;
+    margin-bottom: 10px;
+    border-color: var(--border-color);
+}
+
+.result-item.correct {
+    border-left-color: var(--correct-color);
+}
+
+.result-item.incorrect {
+    border-left-color: var(--incorrect-color);
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.stats-table th, .stats-table td {
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    text-align: left;
+}
+
+.stats-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.stats-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.stat-bar-container {
+    background-color: var(--border-color);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.stat-bar {
+    height: 20px;
+    transition: width 0.5s ease-in-out;
+}
+
+.correct-bar {
+    background-color: var(--correct-color);
+}
+
+.incorrect-bar {
+    background-color: var(--incorrect-color);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header, main {
+        padding: 10px;
+    }
+    .card {
+        padding: 20px;
+    }
+}
